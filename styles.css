@@ -156,3 +156,23 @@ a > img {
 }
 
 /* ============================= END ANIMATIONS ============================ */
+
+/* ============================= ADDITIONALS ============================ */
+
+.disabled {
+	background-color: #d8d8d8;
+	cursor: default;
+}
+
+.disabled:hover {
+	bottom: 0;
+	right: 0;
+	box-shadow: 12px 10px 16px -6px rgba(0,0,0,0.3);
+}
+
+.disabled > a {
+	color: #797979;
+	cursor: default;
+}
+
+/* ============================= END ADDITIONALS ============================ */
