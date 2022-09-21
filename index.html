@@ -19,9 +19,40 @@
       href="assets/favicons/favicon-16x16.png"
     />
     <link rel="manifest" href="assets/favicons/site.webmanifest" />
+    <!-- end link to favicons -->
+
+    <!-- vantajs -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.birds.min.js"></script>
+    <script>
+      window.addEventListener("load", () => {
+        VANTA.BIRDS({
+          el: "#vanta",
+          mouseControls: true,
+          touchControls: true,
+          gyroControls: true,
+          minHeight: 200.0,
+          minWidth: 200.0,
+          scale: 1.0,
+          scaleMobile: 1.0,
+          color1: 0xc9184a,
+          color2: 0xff4d6d,
+          colorMode: "lerpGradient",
+          wingSpan: 30.0,
+          separation: 75.0,
+          alignment: 75.0,
+          cohesion: 1.0,
+          quantity: 1,
+          backgroundAlpha: 0,
+        });
+      });
+    </script>
+    <!-- end vantajs -->
+
     <title>Haruki 🍀</title>
   </head>
   <body>
+    <div id="vanta"></div>
     <main>
       <header>
         <img

@@ -1,144 +1,149 @@
 /* ============================= BASIC STYLES ============================ */
 :root {
-	--border: 2px solid #333;
+  --border: 2px solid #333;
 }
 
 @font-face {
-	font-family: "CascadiaCode";
-	src: url('assets/fonts/CascadiaCode.woff2') format('woff2');
+  font-family: "CascadiaCode";
+  src: url("assets/fonts/CascadiaCode.woff2") format("woff2");
 }
 
 body {
-	font-family: CascadiaCode, "Open Sans", sans-serif;
-	margin: 0;
-	box-sizing: border-box;
+  font-family: CascadiaCode, "Open Sans", sans-serif;
+  margin: 0;
+  box-sizing: border-box;
 
-	background-color: #fff2b2;
-	background: 
-		radial-gradient(
-			circle,
-			#fff0a8 40%,
-			#fff2b2 60%,
-			#fff6cc 80%
-		); 
+  background-color: #fff2b2;
+  background: radial-gradient(circle, #fff0a8 40%, #fff2b2 60%, #fff6cc 80%);
 }
 
 h3 {
-	margin: 0;
+  margin: 0;
 }
 
 ul {
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
 
 img {
-	display: inline-block;
+  display: inline-block;
 }
 
 a {
-	display: block;
-	text-decoration: none;
+  display: block;
+  text-decoration: none;
 }
 
 a:link {
-	color: #000000;
+  color: #000000;
 }
 
 a:visited {
-	color: #560bad;
+  color: #560bad;
 }
 
 /* ============================= END BASIC STYLES ============================ */
 
+/* ============================= ELEMENTS STYLES ============================ */
+#vanta {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
 main {
-	max-width: 960px;
-	margin: 0 auto;
-	padding: 50px 0;
-	animation: fadeIn 2s ease-in;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 50px 0;
+  animation: fadeIn 2s ease-in;
 }
 
 header {
-	margin-bottom: 60px;
+  margin-bottom: 60px;
 }
 
 header > img,
 header > h3 {
-	width: 100px;
+  width: 100px;
 }
 header > img {
-	display: block;
-	margin: 0 auto 15px auto;
-	border-radius: 25%;
-	border: var(--border);
+  display: block;
+  margin: 0 auto 15px auto;
+  border-radius: 25%;
+  border: var(--border);
 }
 
 header > h3 {
-	margin: 0 auto;
-	padding: 1px 0;
-	background-color: #ff9b7d;
-	text-align: center;
-	border-radius: 12px;
-	font-size: 16px;
-	color: #000;
-	border: var(--border);
+  margin: 0 auto;
+  padding: 1px 0;
+  background-color: #ff9b7d;
+  text-align: center;
+  border-radius: 12px;
+  font-size: 16px;
+  color: #000;
+  border: var(--border);
 }
 
 ul {
-	max-width: 450px;
-	margin: 0 auto;
+  max-width: 450px;
+  margin: 0 auto;
 }
 
 li {
-	position: relative;
-	bottom: 0;
-	right: 0;
+  position: relative;
+  bottom: 0;
+  right: 0;
 
-	margin: 25px 15px;
-	background-color: #ffb3c1;
-	border-radius: 26px;
-	border: 2px solid #333;
-	box-shadow: 12px 10px 16px -6px rgba(0,0,0,0.3);
-	transition: all .35s;
-	cursor: pointer;
+  margin: 25px 15px;
+  background-color: #ffb3c1;
+  border-radius: 26px;
+  border: 2px solid #333;
+  box-shadow: 12px 10px 16px -6px rgba(0, 0, 0, 0.3);
+  transition: all 0.35s;
+  cursor: pointer;
 }
 
 li:hover {
-	bottom: 5px;
-	right: 5px;
-	box-shadow: 17px 15px 20px -6px rgba(0,0,0,0.3);
+  bottom: 5px;
+  right: 5px;
+  box-shadow: 17px 15px 20px -6px rgba(0, 0, 0, 0.3);
 }
 
 a {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	padding: 12px 20px;
-	text-align: center;
-	font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 20px;
+  text-align: center;
+  font-size: 18px;
 }
 
 a > img {
-	max-width: 30px;
-	margin-right: 8px;
+  max-width: 30px;
+  margin-right: 8px;
 }
 
 .sticker {
-	display: none;
-	position: fixed;
-	bottom: 30px;
-	left: 40;
-	width: 200px;
-	animation: fadeIn 2s ease-in;
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  left: 40;
+  width: 200px;
+  animation: fadeIn 2s ease-in;
 }
+/* ============================= END ELEMENTS STYLES ============================ */
 
 /* ============================= RESPONSIVE ============================ */
 
 @media all and (min-width: 74.938em) {
-	.sticker {
-		display: block;
-	}
+  .sticker {
+    display: block;
+  }
 }
 
 /* ============================= END RESPONSIVE ============================ */
@@ -146,13 +151,13 @@ a > img {
 /* ============================= ANIMATIONS ============================ */
 
 @keyframes fadeIn {
-	0% {
-		opacity: 0;
-	}
+  0% {
+    opacity: 0;
+  }
 
-	100% {
-		opacity: 1;
-	}
+  100% {
+    opacity: 1;
+  }
 }
 
 /* ============================= END ANIMATIONS ============================ */
@@ -160,19 +165,19 @@ a > img {
 /* ============================= ADDITIONALS ============================ */
 
 .disabled {
-	background-color: #d8d8d8;
-	cursor: default;
+  background-color: #d8d8d8;
+  cursor: default;
 }
 
 .disabled:hover {
-	bottom: 0;
-	right: 0;
-	box-shadow: 12px 10px 16px -6px rgba(0,0,0,0.3);
+  bottom: 0;
+  right: 0;
+  box-shadow: 12px 10px 16px -6px rgba(0, 0, 0, 0.3);
 }
 
 .disabled > a {
-	color: #797979;
-	cursor: default;
+  color: #797979;
+  cursor: default;
 }
 
 /* ============================= END ADDITIONALS ============================ */
