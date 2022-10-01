@@ -6,9 +6,9 @@ You can feel free to fork my repository and create your portfolio.
 
 Have a nice day, ❤️🍀.
 
-## ✅ Todos
+## ✅ Todo
 
-- [ ] Download Vantajs locally
+- [x] Download Vantajs locally.
 
 ## 💡 Idea
 
