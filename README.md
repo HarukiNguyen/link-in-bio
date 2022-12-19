@@ -9,9 +9,8 @@ Have a nice day, ❤️🍀.
 ## ✅ Todo
 
 - [x] Download Vantajs locally.
-- [ ] Change favicon.
-- [ ] Fix: 🐛 Vantajs layer is overlaying the whole website.
-- [ ] Blog --> Portfolio, remove YouTube, add LinkedIn link.
+- [x] Fix: 🐛 Vantajs layer is overlaying the whole website.
+- [x] Blog --> Portfolio, remove YouTube, add LinkedIn link.
 - [x] Refactor CSS (use ITCSS, units scaling system).
 
 ## 💡 Idea
