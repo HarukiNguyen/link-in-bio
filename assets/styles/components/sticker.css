@@ -1,0 +1,15 @@
+.sticker {
+  display: none;
+  position: fixed;
+  bottom: 30px;
+  left: 40;
+  width: 200px;
+  -webkit-animation: fadeIn 2s ease-in;
+  animation: fadeIn 2s ease-in;
+}
+
+@media all and (min-width: 74.938em) {
+  .sticker {
+    display: block;
+  }
+}
