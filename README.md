@@ -12,7 +12,7 @@ Have a nice day, ❤️🍀.
 - [ ] Change favicon.
 - [ ] Fix: 🐛 Vantajs layer is overlaying the whole website.
 - [ ] Blog --> Portfolio, remove YouTube, add LinkedIn link.
-- [ ] Refactor CSS (use ITCSS, units scaling system. 
+- [x] Refactor CSS (use ITCSS, units scaling system).
 
 ## 💡 Idea
 
