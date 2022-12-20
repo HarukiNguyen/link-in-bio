@@ -1,6 +1,11 @@
+html {
+  height: 100vh;
+}
+
 body {
   margin: 0;
   box-sizing: border-box;
+  height: 100%;
 }
 
 h3 {
