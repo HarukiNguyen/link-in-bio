@@ -1,7 +1,10 @@
 body {
   font-family: CascadiaCode, 'Open Sans', sans-serif;
+  /* bg fallback */
   background-color: #fff2b2;
   background: radial-gradient(circle, #fff0a8 40%, #fff2b2 60%, #fff6cc 80%);
+  /* end bg fallback */
+  background: url('../images/bg.jpg') no-repeat center/cover;
 }
 
 img {
