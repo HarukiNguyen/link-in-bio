@@ -12,6 +12,7 @@ Have a nice day, ❤️🍀.
 - [x] Fix: 🐛 Vantajs layer is overlaying the whole website.
 - [x] Blog --> Portfolio, remove YouTube, add LinkedIn link.
 - [x] Refactor CSS (use ITCSS, units scaling system).
+- [ ] Change bg.
 
 ## 💡 Idea
 
